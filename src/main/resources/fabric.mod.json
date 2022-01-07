@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "nochatlag",
+  "version": "${version}",
+  "name": "No Chat Lag",
+  "description": "Fixes chat stutter caused by Mojang's blocked/hidden messages system by putting chat on a different thread.",
+  "authors": [
+    "BillyGalbreath"
+  ],
+  "contact": {
+    "homepage": "https://github.com/BillyGalbreath/NoChatLag/",
+    "sources": "https://github.com/BillyGalbreath/NoChatLag/",
+    "issues": "https://github.com/BillyGalbreath/NoChatLag/issues/"
+  },
+  "license": "MIT",
+  "icon": "assets/icon.png",
+  "environment": "client",
+  "mixins": [
+    "nochatlag.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "minecraft": "1.18.1"
+  },
+  "conflicts": {
+    "purpurclient": "*"
+  }
+}

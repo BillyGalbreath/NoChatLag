@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.pl3x.fabric.nochatlag.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "nochatlag.refmap.json",
+  "client": [
+    "net.pl3x.fabric.nochatlag.mixin.MixinInGameHud"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "MixinInGameHud"
+  ]
+}
